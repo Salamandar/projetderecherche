@@ -1,3 +1,55 @@
 \section{Électromigration}
+\begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=150px]{Images/Image_Electromigration_1.png}
+        \caption{La caractéristique R = f (V$_{ds}$)}
+        \label{fig:}
+    \end{center}
+\end{figure}
+On envoie un rampe de tension allant de 50mV à 2,5V avec une vitesse de 5mV/s.
+L’énergie est dissipé par effet Joule et induit des vibrations du réseau cristallin. Après 1,2V  on commence à casser petit à petit la jonction jusqu’à créer le nanogap. Expérimentalement on observe Rmax=12,9kOhm pour un unique canal d’or et Rmax=25kOhm au moment de la formation du nanogap. On arrête donc l’électromigration lorsque l’on atteint R=25kOhm.
+Grâce au système de mesure en temps réel on peut obtenir facilement la courbe R = f(Vds). Si l’électromigration est réussie on obtient une courbe du type de celle ci dessus, il est possible cependant que le nanofil soit déjà endommagé avant électromigration (résistance déjà de l’ordre de quelques kOhms). 
+
+La mobilité des atomes est activée par la température. Localement (au niveau du nanogap) la température est de l’ordre de 400K lors de l’électromigration [11]. Cependant l’arrêt de l’électromigration en une microseconde, et les dimensions concernées très faibles empêchent pas une élévation globale de l’échantillon en température.
 \section{Observation du blocage de Coulomb}
+Pour savoir si une molécule de C60 est tombé dans le nanogap, On trace la caractéristique I(V) pour différentes valeurs de la tension de grille Vg. L’influence de la boite quantique produira différentes caractéristiques, au contraire les caractéristiques seront toutes confondues si le gap est vide.
+ Notons bien qu’il faut toujours utiliser des rampes de tensions entre la connexion et la déconnexion pour ne pas casser les les fronts montants ou descendants en voyant des fronts d’une amplitude de 1V.
+ \begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=150px]{Images/Image_Blocage_Coulomb_1.png}
+        \caption{Id=f(Vg) on observe bien des pics de Coulomb (ici il pourrait s’agir d’un unique pic)}
+        \label{fig:}
+    \end{center}
+\end{figure}
+Sur la courbe Vds(Vg) on cherche à observer les diamants de Coulomb. Les différents pics mesurés doivent être également présents lorsqu’on envoie un tension drain-source négative, on est alors sur d’avoir non pas du bruit mais bien un pic lié au blocage de Coulomb.
+Malheureusement nous n’avons pas pu mesurer des diamants de Coulomb exploitable, selon Franck Balestro 1 transistor sur 100 donne des résultats d’une bonne qualité.
+
 \section{Quelques cas particuliers}
+Après ces considérations générales étudions quelques cas particuliers, et plus précisément des observations obtenues lorsque des problèmes ont été rencontrés au cours de l’expérience.
+ \begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=150px]{Images/Nanofil_Emdommage.png}
+        \caption{Nanofil endommagé avant électromigration}
+        \label{fig:}
+    \end{center}
+\end{figure}
+
+ \begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=150px]{Images/Grille_Endommagee}
+        \caption{Grille endommagée}
+        \label{fig:}
+    \end{center}
+\end{figure}
+
+ \begin{figure}[h]
+    \begin{center}
+        \includegraphics[width=150px]{Images/Grille_Detruite}
+        \caption{Grille détruite (au delà de Vg=7V on détruit la grille)}
+        \label{fig:}
+    \end{center}
+\end{figure}
+
+
+
+
