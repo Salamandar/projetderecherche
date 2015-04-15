@@ -1,0 +1,302 @@
+Sommaire:
+
+I Etat de l’art
+L’idée d’une électronique moléculaire
+Le premier transistor moléculaire
+De nouvelles molécules: vers la spintronique moléculaire
+II Aspects théoriques
+Le testeur sous pointes et ADwin
+Le fullerène
+L’électromigration
+Le blocage de Coulomb (dans un transistor à électron unique)
+Réalisation de l’expérience
+La réalisation des circuits en salle blanche (faite en amont par Mr Balestro)
+Le dépôt de Fullerène
+Une expérience à 4.2K grâce à l’hélium liquide
+L’Hélium Liquide
+Les méthodes de mesure
+La mesure de résistivité
+Les précautions à prendre
+L’électromigration
+L’étude du blocage de Coulomb
+Résultats obtenus
+Électromigration
+Quelques cas particuliers
+Après ces considérations générales étudions quelques cas particuliers, et plus précisément des observations obtenues lorsque des problèmes ont été rencontrés au cours de l’expérience.
+Aller plus loin? Vers de nouvelles expériences…
+Une expérience à 20mK
+Les éxpériences actuelles de l’équipe n’utilisent ni des molécules de Fulerène, ni un testeur sous pointes et n’ont pas lieu à 4,2K. De plus le convertisseur courant-tension n’est pas un modèle commercial mais a été fabriqué au CNRS pour permettre des mesures ultra bas bruit.
+Vers l’informatique quantique?
+
+
+L'équipe avec laquelle s'est effectuée notre projet de recherche est l'équipe Nanospintronique et Transport Moléculaire de l'institut Louis Néel. Et c'est en particulier Franck Balestro qui nous a encadré lors de l'expérience et en amont de celle-ci.
+                                             
+
+L’équipe travaille à la manipulation et à la lecture de spins nucléaires uniques, c’est à dire de relier le monde quantique au monde macroscopique et permettre à terme l’avènement de l’informatique quantique. Pour ce faire ils utilisent des molécules ayant des propriétés spécifiques: les aimants moléculaires, d’excellents candidats pour le stockage et le traitement de l’information quantique.[1] Les molécules étant de plus de très petite taille comparativement aux dimensions des transistors utilisés en électronique classique, elles pourraient permettre d’améliorer la densité des circuits. Pour résumer et comme le dit Franck Balestro l’objectif de l’équipe est "de créer l’électronique du futur avec des molécules".[2]
+
+Les enjeux sont donc immenses, particulièrement dans un contexte où la réduction des dimensions des transistors devient de plus en plus problématique et où le besoin en puissance de calcul de nos ordinateurs devient de plus en plus important ; une "nouvelle électronique" peut être la solution.
+
+Pour notre part nous avons réalisé un transistor à molécule unique à l’aide de fullerène. Une telle molécule ne possède pas de propriété particulière mais permet de comprendre le fonctionnement général des transistors à molécule unique. Historiquement, c’est la toute première molécule utilisée pour ce type de réalisation en 2000 par l’équipe de Park.[13]
+
+
+
+I Etat de l’art
+
+L’idée d’une électronique moléculaire
+
+C’est en 1974 que l’idée d’utiliser des molécules uniques dans la fabrication de composants électroniques est apparu lors d’un séminaire tenu par Arieh Aviram et Mark Ratner, cette date peut être considérée comme la naissance de ce que l’on appelle l’électronique moléculaire. Le but étant à la fois de permettre d’aller encore plus loin dans la miniaturisation des composants en microélectronique mais aussi d’adopter une technique de fabrication basée sur l’auto-organisation de petites molécules en structure complexe: technique dite “bottom-up”.
+
+Le premier transistor moléculaire
+
+Mais en 1974 on est encore loin de l’utilisation concrète de molécules uniques dans l’électronique,et il faudra attendre 1995 pour que la première mesure de courant à travers une molécule unique soit réalisée à l’aide d’un microscope à effet tunnel (STM). De nombreuses autres expériences vont suivre, et en 1997 apparaît la technique de “break junction” qui consiste à effectuer la cassure d’un pont métallique sur substrat flexible en pliant le substrat, on peut alors sans STM mesurer les caractéristiques de molécules uniques. Mais on n’a toujours pas de grille pour pouvoir permettre l’utilisation comme transistor.
+Ce n’est qu’en 2000 que J.W. Park et son équipe utiliseront une technique d’électromigation pour permettre la fabrication du premier transistor à molécule unique avec une molécule de fullerène C60. D’autres groupes vont alors utiliser cette même technique en utilisant d’autres molécules et leurs propriétés, et en particulier les aimants moléculaires(SMM) pour leurs propriétés liées au spin. Mais aussi en mettant en place deççççs expériences qui permettront d’effectuer les mesures à quelques mK.
+
+De nouvelles molécules: vers la spintronique moléculaire
+
+En 2006 l’utilisation de SMM débute afin de permettre la réalisation de dispositifs de spintronique moléculaire. Les équipe de H.S.J Van der Sant (à Cornell) et D.C. Ralph (à Delft) vont étudier tout d’abord l’aimant moléculaire le plus fameux, Mn12, mais les résultats sont peu satisfaisants et la première réalisation d’un véritable dispositif de spintronique moléculaire est réalisé à Delft par l’équipe de Ralph en 2008 à l’aide d’une molécule de N@C60 (atome d’azote piégé dans une molécule de fullerène). Il est possible avec une telle molécule de retrouver dans les mesures de transport ses propriétés magnétiques.
+
+vue de la molécule de TbPc2 et schéma de principe
+
+Cependant cette molécule n’est pas un aimant moléculaire, et il impossible donc de se servir des propriétés quantiques liées au magnétisme moléculaire. Les équipes vont donc se tourner vers d’autres aimants moléculaires notamment Fe4 (à Delft), Ni4(à Cornell)...etc et la molécule TbPc2 (molécule organique avec un atome de Terbium) à l’institut Louis Néel dans l’équipe de Franck Balestro. L’aimant moléculaire TbPc2 utilisée dans un transistor à molécule unique a permis de réaliser la lecture électrique et la manipulation quantique d’un spin nucléaire unique.
+
+II Aspects théoriques
+Le testeur sous pointes et ADwin
+
+testeur sous pointes légendé
+photo disponible à: ttps://tel.archives-ouvertes.fr/tel-00456601v2/document
+
+Pour réaliser l’électromigration, on a besoin du testeur sous pointes qui, grâce à ses quatre bras orientables supportant les pointes, permet d’imposer une rampe de tension et de mesurer simultanément la conductance. Le testeur sous pointe possède un accès optique permettent de connecter rapidement les échantillons et de les refroidir à 4,2K [17]. Notons que le contact est moins bon qu’avec des microsoudures.
+On doit disposer d'une électronique de mesure en temps réel et d'une détection synchrone : c'est le rôle d'ADWin.
+
+La première partie constituant ADWin est l'ordinateur permettant le stockage des données et l'interface graphique. Vient ensuite le processeur propre à ADWin qui garantit la répétition de suites d'instructions toutes les 3,3ns. Ceci est une nécessité car un OS (multitache) ne pourrai garantir une base de temps inférieur à 10ms et compromettrai le résultat de l'électromigration. Enfin les convertisseurs génèrent et reçoivent les signaux expérimentaux.
+
+Un des autres avantages d'ADwin est la diminution du bruit. En incrémentant bit par bit des rampes de mesures (tension, courant) et grâce à la très petite base de temps du système on peut balayer des plages entière de (tension, courant, charges) en des temps très faible et obtenir une très bonne précision.
+schéma de fonctionnement d’ADwinschéma disponible à: https://tel.archives-ouvertes.fr/tel-00456601v2/document
+
+
+Le fullerène
+
+
+Les fullerènes sont des molécules composées de carbone d'un nanomètre de diamètre.Leur découverte en 1985 a donné lieu au prix Nobel de chimie 1996 et à toute une nouvelle classe de matériau massique. Le fullerène utilisé est le C60, une molécule très simple de la forme d’un ballon de football.
+
+structure de la molécule de fullerène
+
+
+On dépose le fullerène C60 avant l’étape d’electromigration et on espère qu’une molécule tombe dans le gap crée sur le nanofils d’or. La probabilité d’occurence est plus important que d’essayer de déposer une molécule dans un gap préexistant. On essaye d’avoir des molécules unique de C60 plutôt que des agregats car la molécule unique présente une énergie de charge plus importante et un couplage à l’environnement moins fort gage de stabilité. Une dilution dans le toluène permet de caractériser si une solution est composée de molécule unique (couleur jaune) ou d’agrégats (couleur violette).
+L’électromigration
+
+L'électromigration est un phénomène bien connu en microélectronique. Il s'agit d'un transport de matière observé dans les métaux traversés par de fortes densités de courant ; c'est une cause d'endommagement des interconnexions métalliques et donc de fiabilité dans les circuits intégrés.[8] Ce phénomène est néfaste pour la microélectronique "classique", mais son utilisation est très intéressante pour la réalisation de transistors à molécule unique. En effet il faut que la molécule soit reliée à un dispositif métallique macroscopique et donc que les électrodes (source-drain) soient séparées d'une distance nanométrique proche de la taille de la molécule ; ce qui est impossible par des méthodes de nanofabrication limitées à environ 10nm de résolution, alors qu'une résolution inférieure est possible grâce à l'électromigration.[9]
+
+Intéressons-nous maintenant à la description théorique de l'électromigration, "mise en mouvement des atomes par un métal causée par l'application d'un champ électrique". La force de transport peut être notée :
+
+où le terme se décompose en deux parties, l'une modélisant l'effet du champ électrostatique, l'autre le "vent des électrons" qui transmettent leurs mouvements aux ions.
+
+Dans les métaux c'est principalement le vent d'électrons qui est responsable du transport, ainsi le transport de matière a lieu dans le sens de circulation des électrons.[10]
+Il faut maintenant pouvoir suivre l'électromigration pour pouvoir réaliser un nanogap, cela est possible grâce à une mesure en temps réel de la conductance (ou la résistance) à l'aide d'ADWin.
+Au cours de l'électromigration, les propriété de conduction vont évoluer et on peut distinguer deux régimes de conduction :
+-le régime diffusif, lorsque le libre parcours moyen ( ) est inférieur aux dimensions du nanofil
+-le régime ballistique, lorsque le libre parcours moyen est supérieur aux dimensions du nanofil.
+
+Or dans le cas du régime balistique, d'après la formule de Landauer Buttiker, la conductance est un multiple du quantum de conductance :
+ où 
+avec T probabilités de transmission pour les N canaux de conduction.
+    Variation de G en fonction du temps à la fin d’une électromigration (au moment de l’ouverture du nanogap) on observe bien des palliers de conductance
+photo disponible àhttps://tel.archives-ouvertes.fr/tel-00515127/document
+
+On en déduit ainsi que si  (ou ), il n'y a plus de canaux de conduction et donc qu'on a crée un nanogap. Il suffit donc de stopper l'électromigration à cette limite de conductance dans un temps très court de l’ordre de la microseconde ce qui est possible grâce à l’électronique temps réel. [11] 
+En réalité on stoppera plutôt notre expérience à qui expérimentalement assure de meilleurs résultats.
+
+
+
+
+
+
+
+
+
+
+
+Le blocage de Coulomb (dans un transistor à électron unique)
+
+On considère un îlot quantique, placé entre 3 électrodes: le drain, la source et la grille. Le drain et la source sont séparés de l'îlot par des jonctions tunnels. On note Vd, Vs et Vg respectivement les tensions de drain, source et grille. De plus, on note N le nombre d’électrons à l’intérieur de l'îlot. 
+                                             schéma équivalent
+L'îlot possède donc une énergie électrostatique Ec:
+Ainsi, il va falloir apporter de l’énergie à un électron pour pouvoir le faire rentrer dans l’îlot Quantique. Si Vsd>0, il va être plus simple d’injecter un électron dans l’îlot depuis la source plutôt que depuis le drain. Une fois l’électron apporté dans l’îlot, on modifie l’énergie à l’intérieur de l’îlot, ce qui va rendre plus difficile l’entrée d’un nouvel électron (on passe de N à N+1). Cette variation d’énergie doit être négative si l’on veut continuer à rentrer des électrons:
+
+            ce qui donne la condition:
+    
+
+De manière analogue, si Vsd>0, il va être plus facile de sortir un électron de l’îlot par le drain que par la source (on passe de N à N-1). On va cette fois-ci avoir une variation d’énergie positive si l’on veut arrêter de rentrer des électrons dans l’îlot:
+ 
+(car il va être plus simple de rentrer un nouvel électron). Cette variation va donner la condition:
+
+
+De même, on refait les mêmes raisonnements pour Vsd<0. Dans ce cas, il sera plus simple de rentrer un électron dans l’îlot à partir du drain et d’en sortir un à partir de la source. On obtient deux nouvelles conditions similaires au cas où Vd>0:
+
+
+
+A présent, on peut visualiser les diamants de Coulob et les domaines de blocage de Coulomb quand on trace les droites dans le plan (Vsd,Vg). Quand on est sur une droite, on a dans l’îlot N électrons. Ces droites coupent l’espace (Vsd,Vg) en 2 demi-plans avec chacun une certaine condition (impossibilité de faire transiter un électron par la source ou le drain par  exemple).
+diamant de Coulomb théorique
+
+Quand on est à l’intérieur d’un de ces diamants, nous ne pouvons plus faire circuler d’électrons dans l’îlot. Quand nous sommes au-dessus ou en dessous d’un de ces diamants, il y a possibilité de faire rentrer puis sortir un électron un par un.
+
+Il y a ainsi des pics de conductance pour certaines valeurs de tensions de grille lorsque la dégénérescence entre les états de charges N et N+1 est atteinte. On appel ces pics, pics de Coulomb.
+
+Notre molécule unique de fullerène peut effectivement être considérée comme un point quantique, de par sa géométrie et sa taille. En effet elle est d’une taille de l’ordre d’un nanomètre, taille comparable à la longueur d’onde de Fermi, il est donc raisonnable de penser que les électrons sont localisés dans les trois dimensions de l’espace.
+
+
+
+
+
+
+Réalisation de l’expérience
+L’expérience que nous avons réalisé consiste donc à réaliser des transistors moléculaires, afin de caractériser leur comportement.
+La réalisation des circuits en salle blanche (faite en amont par Mr Balestro)
+
+La réalisation des fils d’or a pris plusieurs semaines ; c’est pourquoi Frank Balestro les avait déjà réalisés en salle blanche, au CNRS, avant l’expérience.
+Nous avons donc commencé la journée avec 3 plaques de Al_2O_3, avec chacune 4 groupes de 12 transistors non formés.
+
+Un groupe de transistors avec grille et source communes
+Le dépôt de Fullerène
+Nous sommes donc allés en salle propre de dépôt chimique afin de déposer sur ces plaques le Fullerène, en solution de Toluène.
+Cette solution, conservée dans un frigo, est parfaitement inerte, ce qui nous autorise à la conserver très longtemps : celle que nous avons utilisé date de 2009 et est encore utilisable.
+
+Le dépôt se fait à l’aide d’une micropipette, et sous hotte aspirante afin d’éviter toute inhalation de fullerène et toute pollution de l’échantillon.
+La solution est assez faible en agrégats, et ceux qui ont pu se former se trouvent essentiellement à la surface et au fond de la solution. Nous sommes donc allés récupérer la solution au milieu du bécher.
+Le dépôt de fullerène n’a pas besoin d’être mesuré : 3 gouttes de solution par plaque sont suffisantes pour obtenir une probabilité acceptable qu’une molécule se glisse dans le nanogap après électromigration. Enfin, nous avons laissé s’évaporer le Toluène naturellement.
+Une expérience à 4.2K grâce à l’hélium liquide
+Une fois le Fullerène déposé, nous avons fixé les plaques sur un plateau. La fixation se fait à la laque d’argent.
+Dans le testeur sous pointes, l’échantillon sera dans une cavité sous vide (vide secondaire de l’ordre de 4-10 millibars). L’unique contact thermique avec les échantillons sera donc par ce plateau. Celui-ci doit être efficace. Sinon, les échantillons seront à haute température et nous n’aurons donc pas du tout le comportement attendu.
+L’argent est un très bon conducteur thermique et la laque d’argent permet d’avoir un contact uniforme entre les échantillons et le plateau.
+De plus, l’argent nous permet d’avoir une bonne mise à la masse des échantillons et donc de minimiser les risques de choc électrique qui risqueraient de détruire les jonctions formées.
+échantillon collé à l’aide de laque d’argent
+
+Pour empêcher un maximum le réchauffement du au rayonnement l’échantillon est placé sous deux écrans. Le premier  écran est à 10K est placé au niveau du hublot. Le deuxième écran est à 300K (température de la pièce). On peut alors efficacement refroidir à 4.2K. Au préalable, il a fallu faire le vide entre les deux écrans et l’écran intermédiaire et l’échantillon pour empêcher tout réchauffement par conduction ou convection et  pour empêcher que l’air ne gèle autour de l’échantillon ce qui interdirait toute manipulation
+
+L’Hélium Liquide
+Comme dit précédemment, nous pouvons effectuer cette expérience à 4.2K grâce à l’Hélium liquide. Et, heureusement, l’hélium liquide est facile d’accès à l’Institut Néel.
+Il nous faut donc transporter la bouteille d’hélium liquide vide jusqu’au centre de liquéfaction, pour prendre une bouteille pleine. Il faut aussi indiquer les poids des bouteilles entrante et sortante, afin d’attribuer la consommation à tel ou tel laboratoire.
+La manipulation de la bouteille d’hélium doit se faire avec précaution. En effet, le haut de la bouteille est “chaud”, donc en cas de contact brusque avec l’hélium liquide, celui-ci se dilate très rapidement, ce qui transforme la bouteille d’hélium en “torpille”.
+
+
+Légende : Une bouteille d’Hélium Liquide et le centre de liquéfaction.
+
+Les méthodes de mesure
+La mesure de résistivité
+Afin de vérifier que nos pointes sont bien connectées et qu’il y a bien un nanofil entre elles, on utilise un ohmmètre spécialisé délivrant des micro-ampères. En effet la largeur de transport est de quelques atomes d’or et un courant classique de l’ordre du mA détruirait immédiatement nos échantillons.
+Nous polarisons nos échantillons en tension, et cherchons donc à mesurer le courant traversant les échantillons.
+On transforme le courant en une tension par l’intermédiaire d’un convertisseur courant-tension présentant différents facteurs, afin d’effectuer nos mesures. Lors de l’électromigration on utilise un facteur 10^3 pour mesurer des uA.
+Pour observer les diamants de Coulomb on mesure des faibles courant (nA),  on sélectionne le facteur 10^6 sur le convertisseur. 
+
+Branchements de l’interface Adwin lors de l’électromigration, on peut voir sur la droite le convertisseur courant-tension
+
+Les précautions à prendre
+Lorsqu’on manipule de tels échantillons, il faut bien sûr prendre quelques précautions afin de ne pas les détériorer définitivement.
+Dans le testeur sous pointes, les échantillons sont à l’abri des perturbations extérieures : la structure de l’appareil, et particulièrement le plateau sur lequel les échantillons sont posés, sont mis à la masse.
+Le principal risque vient donc des pointes : Si on les fait bouger alors qu’une tension est appliquée, le risque de pics de tension est très élevé. Avant chaque mesure et déplacement des pointes, nous faisons donc attention à les mettre à la masse. Cela peut être répétitif, mais absolument indispensable. 
+
+
+
+L’électromigration
+L’électromigration consiste, comme nous l’avons expliqué précédemment, à appliquer à l’échantillon une tension suffisamment forte pour “détruire” le fil d’or et créer un nanogap.
+ADWin nous permet d’avoir une mesure suffisamment rapide du courant et d’arrêter l’électromigration suffisamment rapidement pour ne pas risquer d’abîmer le nanogap créé.
+
+Nous pouvions observer en temps réel les courbes de courant et de résistivité de l’échantillon. Pour un échantillon correct nous observions bien la rampe de tension appliquée puis le comportement classique d’électromigration, dont la chute par paliers du courant.
+Pour un échantillon abîmé -- ce fut malheureusement le cas pour beaucoup, dû à un problème en salle blanche en amont --, nous pouvions observer une résistivité qui croit linéairement dès l’application de la tension.
+L’étude du blocage de Coulomb
+Après avoir effectué l’électromigration avec succès sur un échantillon, il nous fallait vérifier la présence d’une molécule de Fullerène dans le nanogap tout juste créé.
+
+Résultats obtenus
+Électromigration
+R=f(Vds) lors de l’électromig
+
+
+
+
+
+On envoie un rampe de tension allant de 50mV à 2,5V avec une vitesse de 5mV/s.
+L’énergie est dissipé par effet Joule et induit des vibrations du réseau cristallin. Après 1,2V  on commence à casser petit à petit la jonction jusqu’à créer le nanogap. Expérimentalement on observe Rmax=12,9kOhm pour un unique canal d’or et Rmax=25kOhm au moment de la formation du nanogap. On arrête donc l’électromigration lorsque l’on atteint R=25kOhm.
+Grâce au système de mesure en temps réel on peut obtenir facilement la courbe R = f(Vds). Si l’électromigration est réussie on obtient une courbe du type de celle ci dessus, il est possible cependant que le nanofil soit déjà endommagé avant électromigration (résistance déjà de l’ordre de quelques kOhms). 
+
+La mobilité des atomes est activée par la température. Localement (au niveau du nanogap) la température est de l’ordre de 400K lors de l’électromigration [11]. Cependant l’arrêt de l’électromigration en une microseconde, et les dimensions concernées très faibles empêchent pas une élévation globale de l’échantillon en température.
+
+
+
+Observation du blocage de Coulomb
+
+Pour savoir si une molécule de C60 est tombé dans le nanogap, On trace la caractéristique I(V) pour différentes valeurs de la tension de grille Vg. L’influence de la boite quantique produira différentes caractéristiques, au contraire les caractéristiques seront toutes confondues si le gap est vide.
+ Notons bien qu’il faut toujours utiliser des rampes de tensions entre la connexion et la déconnexion pour ne pas casser les les fronts montants ou descendants en voyant des fronts d’une amplitude de 1V.
+
+Id=f(Vg) on observe bien des pics de Coulomb (ici il pourrait s’agir d’un unique pic)
+
+Sur la courbe Vds(Vg) on cherche à observer les diamants de Coulomb. Les différents pics mesurés doivent être également présents lorsqu’on envoie un tension drain-source négative, on est alors sur d’avoir non pas du bruit mais bien un pic lié au blocage de Coulomb.
+Malheureusement nous n’avons pas pu mesurer des diamants de Coulomb exploitable, selon Franck Balestro 1 transistor sur 100 donne des résultats d’une bonne qualité.
+Quelques cas particuliers
+Après ces considérations générales étudions quelques cas particuliers, et plus précisément des observations obtenues lorsque des problèmes ont été rencontrés au cours de l’expérience.
+
+Nanofil endommagé avant électromigration
+
+
+Grille endommagée:
+
+
+Grille détruite (au delà de Vg=7V on détruit la grille):
+
+
+
+Aller plus loin? Vers de nouvelles expériences…
+Une expérience à 20mK
+Les éxpériences actuelles de l’équipe n’utilisent ni des molécules de Fulerène, ni un testeur sous pointes et n’ont pas lieu à 4,2K. De plus le convertisseur courant-tension n’est pas un modèle commercial mais a été fabriqué au CNRS pour permettre des mesures ultra bas bruit.
+
+En effet la molécule de Fulerène n’ayant aucune propriété particulière elle a été rapidement remplacé par des molécules aux propriétés plus intéressantes, notamment les aimants moléculaires dont nous parlions en introduction. Par exemple TbPc2 dans le cas de l’équipe de nanospintronique et transport moléculaire.
+Les contacts par pointes sont aussi remplacée par des micro-soudures qui possèdent plusieurs avantages sur le contact par pointes. Bien qu’une telle technique soit plus délicate et plus longue à mettre en place et ne permet de tester les transistors qu’en faible nombre, elle a comme intérêts majeurs de réduire le bruit, et permettre un contact parfait sur des durées très longues (certaines expériences sont en cours depuis plus d’un an)
+
+
+Photographie du réfrigérateur à dilution et de l’ensemble du banc de mesure
+Photographie disponible à https://tel.archives-ouvertes.fr/tel-00984973/document
+
+Pour finir l’expérience actuelle se déroule actuellement à des températures de 30mK dans un réfrigérateurs à dilution, la température de électronique étant elle de l’ordre de 80mK [10]. Le principe du réfrigérateur à dilution est comparable à celui d’un réfrigérateur classique, des détentes de Joule-Thomsom successives pour refroidir l’hélium à de très basses températures. Le réfrigérateur étant constitué de différents étages dont les températures vont en diminuant pour limiter les pertes. Il faut cependant attendre plusieurs heures pour qu’une température de 30mK soit atteinte.
+Vers l’informatique quantique?
+
+
+
+Conclusion:
+Bibliographie
+
+
+[1] Page de l’quipe sur le site du CNRS
+http://neel.cnrs.fr/spip.php?rubrique51
+[2] Interview de Franck Balestro site UJF
+https://www.ujf-grenoble.fr/node/8357
+[3]Spintronique moleculaire :  etude de la dynamique d'un spin nucleaire unique (Romain Vincent) 2014
+https://tel.archives-ouvertes.fr/tel-00945672/file/pdf2star-1383124819-these_vincent_romain_archivage_2012.pdf
+[4]Quantum transport through single molecule devices: spin and vibration (Florian Elste) avril 2008
+http://www.diss.fu-berlin.de/diss/servlets/MCRFileNodeServlet/FUDISS_derivate_000000003863/thesisELSTE.pdf
+[5]Coulomb blockade in Quantum Dots (Andreas Fuhrer/Carina Fasth) avril 2007
+http://www.ftf.lth.se/fileadmin/ftf/Course_pages/FFF042/cb_lecture07.pdf
+[6]Article Wikipedia sur le fullerène 
+http://fr.wikipedia.org/wiki/Fuller%C3%A8ne
+[7]Physical principles of the single-C60 transistor effect (C. Joachim, H. Tang, J.K. Gimzewski) 1998
+http://www.chem.ucla.edu/dept/Faculty/gimzewski/publications/149-1998%20Physical%20Review%20B.pdf
+[8]Caractérisation électrique de l’endommagement par électromigration des interconnexions en cuivre (Lise Doyen) 2009
+https://tel.archives-ouvertes.fr/tel-00437444/document
+[9]Transport electronique dans des nanocassures pour la realisation de transistors a molecule unique (Aurore Mangin) 2012
+https://tel.archives-ouvertes.fr/tel-00515127/document
+[10]Transistors à molécule unique des effets Kondo exotiques à la spintronique moléculaire (Nicolas Roch) mars 2010
+https://tel.archives-ouvertes.fr/tel-00456601v2/document
+[11]Vers la mesure de nano-objets uniques, realisation de nanogaps par electromigration(Stéphanie Girod) 2012
+https://tel.archives-ouvertes.fr/file/index/docid/727574/filename/ThA_se_GIROD_Stephanie.pdf
+[12]Read-out and coherent manipulation of an isolated nuclear spin using a single-molecule magnet spin-transistor (Stefan Thiele) avril 2014
+https://tel.archives-ouvertes.fr/tel-00984973/document
+[13]Electron Transport in single Molecule Transistor (Jiwoong Park) 2003
+http://www.lassp.cornell.edu/lassp_data/mceuen/homepage/Publications/Thesis_JPark.pdf
+[14]Spins in few electrons quantum dots (R. Hanson, L. P. Kouwenhoven, J. R. Petta, S. Tarucha, L. M. K. Vandersypen) octobre 2007
+http://kouwenhovenlab.tudelft.nl/wp-content/uploads/2011/10/190-Spins_in_few-electron_.pdf
+[15]Effet de champ et électronique à un électron dans des nanotubes de carbone auto-assemblées par CVD assistée d’un filament chaud (Laetitia Marty) octobre 2004
+http://perso.neel.cnrs.fr/vincent.bouchiat/page_personnelle_de_Vincent_Bouchiat/Theses_files/thesis_marty.pdf
+[16]Conception et réalisation d’un nouveau capteur de gaz passif communicant à transduction RF (Paul Sabatier) Novembre 2011
+http://thesesups.ups-tlse.fr/1028/1/Hallil_Hamida.pdf
+[17]Site Lakeshore sur les testeurs sous pointes
+http://www.lakeshore.com/products/Cryogenic-Probe-Stations/Pages/Cryogenic-Probe-Stations.aspx
+
+
