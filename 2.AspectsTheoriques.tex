@@ -7,7 +7,7 @@
         Photo disponible à \url{https://tel.archives-ouvertes.fr/tel-00456601v2/document}
     \end{center}
 \end{figure}
-Pour réaliser l'électromigration, on a besoin du testeur sous pointes qui, grâce à ses quatre bras orientables supportant les pointes, permet d'imposer une rampe de tension et de mesurer simultanément la conductance. Le testeur sous pointe possède un accès optique permettent de connecter rapidement les échantillons et de les refroidir à 4,2K. Notons que le contact est moins bon qu'avec des microsoudures. 
+Pour réaliser l'électromigration, on a besoin du testeur sous pointes qui, grâce à ses quatre bras orientables supportant les pointes, permet d'imposer une rampe de tension et de mesurer simultanément la conductance. Le testeur sous pointe possède un accès optique permettant de connecter rapidement les échantillons et de les refroidir à 4,2K. Notons que le contact est moins bon qu'avec des microsoudures. 
 \begin{figure}[h]
     \begin{center}
         \includegraphics[width=250px]{Images/ADWin_schema}
@@ -24,7 +24,7 @@ La première partie constituant ADWin est l'ordinateur permettant le stockage de
 Un des autres avantages d'ADWin est la diminution du bruit. En incrémentant bit par bit des rampes de mesures (tension, courant) et grâce à la très petite base de temps du système on peut balayer des plages entière de (tension, courant, charges) en des temps très faible et obtenir une très bonne précision.
 
 \section{Le fullerène}
-Les fullerènes sont des molécules composées de carbone d'un nanomètre de diamètre.Leur découverte en 1985 a donné lieu au prix Nobel de chimie 1996 et à toute une nouvelle classe de matériau massique. Le fullerène utilisé est le C$_{60}$, une molécule très simple de la forme d'un ballon de football.
+Les fullerènes sont des molécules composées de carbone d'un nanomètre de diamètre. Leur découverte en 1985 a donné lieu au prix Nobel de chimie 1996 et à toute une nouvelle classe de matériau massique. Le fullerène utilisé est le C$_{60}$, une molécule très simple de la forme d'un ballon de football.
 
 \begin{figure}[h]
     \begin{center}
@@ -38,13 +38,13 @@ On dépose le fullerène C$_{60}$ avant l'étape d'électromigration et on espè
 
 
 \section{L'électromigration}
-L'électromigration est un phénomène bien connu en microélectronique. Il s'agit d'un transport de matière observé dans les métaux traversés par de fortes densités de courant ; c'est une cause d'endommagement des interconnexions métalliques et donc de fiabilité dans les circuits intégrés.[8] Ce phénomène est néfaste pour la microélectronique "classique", mais son utilisation est très intéressante pour la réalisation de transistors à molécule unique. En effet il faut que la molécule soit reliée à un dispositif métallique macroscopique et donc que les électrodes (source-drain) soient séparées d'une distance nanométrique proche de la taille de la molécule ; ce qui est impossible par des méthodes de nanofabrication limitées à environ 10nm de résolution, alors qu'une résolution inférieure est possible grâce à l'électromigration.[9]\\
+L'électromigration est un phénomène bien connu en microélectronique. Il s'agit d'un transport de matière observé dans les métaux traversés par de fortes densités de courant ; c'est une cause d'endommagement des interconnexions métalliques et donc de fiabilité dans les circuits intégrés\cite{8}. Ce phénomène est néfaste pour la microélectronique "classique", mais son utilisation est très intéressante pour la réalisation de transistors à molécule unique. En effet il faut que la molécule soit reliée à un dispositif métallique macroscopique et donc que les électrodes (source-drain) soient séparées d'une distance nanométrique proche de la taille de la molécule ; ce qui est impossible par des méthodes de nanofabrication limitées à environ 10nm de résolution, alors qu'une résolution inférieure est possible grâce à l'électromigration\cite{9}.\\
 
 Intéressons-nous maintenant à la description théorique de l'électromigration, "mise en mouvement des atomes par un métal causée par l'application d'un champ électrique". La force de transport peut être notée :
 \[\vec{F}=e Z^* \vec{E}\]
 où le terme $Z^*$ se décompose en deux parties, l'une modélisant l'effet du champ électrostatique, l'autre le "vent des électrons" qui transmettent leurs mouvements aux ions.
 \[Z^* = Z_{\text{electrostatique}} + Z_{\text{vent}}\]
-Dans les métaux c'est principalement le vent d'électrons qui est responsable du transport, ainsi le transport de matière a lieu dans le sens de circulation des électrons.[10]\\
+Dans les métaux c'est principalement le vent d'électrons qui est responsable du transport, ainsi le transport de matière a lieu dans le sens de circulation des électrons\cite{10}.\\
 
 Il faut maintenant pouvoir suivre l'électromigration pour pouvoir réaliser un nanogap, cela est possible grâce à une mesure en temps réel de la conductance (ou la résistance) à l'aide d'ADWin.\\
 
@@ -67,11 +67,12 @@ On observe bien des paliers de conductance}
     \end{center}
 \end{figure}
 
-On en déduit ainsi que si G<G${_0}$ ou R>R${_0}$, il n'y a plus de canaux de conduction et donc qu'on a crée un nanogap. Il suffit donc de stopper l'électromigration à cette limite de conductance dans un temps très court de l'ordre de la microseconde ce qui est possible grâce à l'électronique temps réel. [11]
+On en déduit ainsi que si G<G${_0}$ ou R>R${_0}$, il n'y a plus de canaux de conduction et donc qu'on a crée un nanogap. Il suffit donc de stopper l'électromigration à cette limite de conductance dans un temps très court de l'ordre de la microseconde ce qui est possible grâce à l'électronique temps réel\cite{11}.
 
 En réalité on stoppera plutôt notre expérience à R>2R${_0}$ qui expérimentalement assure de meilleurs résultats.
 
 \section{Le blocage de Coulomb dans un transistor à électron unique}
+\footnote{Cette partie s'inspire librement du cours de nanophysique de Monsieur Thierry Ouisse de 2A PNS ainsi que des aspects théoriques présentés dans \cite{3}, \cite{5}, \cite{10}, \cite{13} et \cite{15} qui présentent en détail le blocage de Coulomb.}
 On considère un îlot quantique, placé entre 3 électrodes : le drain, la source et la grille. Le drain et la source sont séparés de l'îlot par des jonctions tunnels. On note V${_d}$, V${_s}$ et V${_g}$ respectivement les tensions de drain, source et grille. De plus, on note N le nombre d'électrons à l'intérieur de l'îlot. 
 \begin{figure}[h]
     \begin{center}
