@@ -244,14 +244,17 @@ Après ces considérations générales étudions quelques cas particuliers, et p
 
 Nanofil endommagé avant électromigration
 
+Dans ce cas, le nanofil a déjà été endommagé avec que l’électromigration ne débute. La résistance du fil est donc constante. Cependant, nous imposons une rampe de tension sur le nanofil avec le testeur sous pointe. On a d’après le loi d’Ohm R=U/I, donc si l’on impose une rampe de tension, on aura de même avec la résistance du nanofil. Ici, le transistor sera inutilisable.
 
 Grille endommagée:
+
+On a toujours Id(Vg). On peut voir un fonctionnement de transistor, c’est à dire des pics de courants pour certaines valeurs de tension de grille mais on observe à partir d’une certaine valeur de Vg que le courant Id est toujours supérieur à 0. On a donc toujours un courant qui circule à travers la molécule. De plus, on observe beaucoup de bruit pour Vg supérieur à 4V. La grille est endomagée, la transistor ne fonctionne pas normalement
 
 
 Grille détruite (au delà de Vg=7V on détruit la grille):
 
 
-
+Quand on applique une trop grande tension à la grille, celle-ci claque. On a plus du tout de contrôle sur le transistor à molécule unique. On a passage du courant quand Vg=0, sinon il n’y a pas de courant qui passe par le drain.
 Aller plus loin? Vers de nouvelles expériences…
 Une expérience à 20mK
 Les éxpériences actuelles de l'équipe n'utilisent ni des molécules de Fulerène, ni un testeur sous pointes et n'ont pas lieu à 4,2K. De plus le convertisseur courant-tension n'est pas un modèle commercial mais a été fabriqué au CNRS pour permettre des mesures ultra bas bruit.
@@ -312,5 +315,4 @@ http://perso.neel.cnrs.fr/vincent.bouchiat/page_personnelle_de_Vincent_Bouchiat/
 http://thesesups.ups-tlse.fr/1028/1/Hallil_Hamida.pdf
 [17]Site Lakeshore sur les testeurs sous pointes
 http://www.lakeshore.com/products/Cryogenic-Probe-Stations/Pages/Cryogenic-Probe-Stations.aspx
-
 
