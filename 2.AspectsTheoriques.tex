@@ -19,9 +19,9 @@ Pour réaliser l'électromigration, on a besoin du testeur sous pointes qui, gr�
 
 On doit disposer d'une électronique de mesure en temps réel et d'une détection synchrone : c'est le rôle d'ADWin.
 
-La première partie constituant ADWin est l'ordinateur permettant le stockage des données et l'interface graphique. Vient ensuite le processeur propre à ADWin qui garantit la répétition de suites d'instructions toutes les 3,3ns. Ceci est une nécessité car un OS (multitâche) ne pourrai garantir une base de temps inférieur à 10ms et compromettrai le résultat de l'électromigration. Enfin les convertisseurs génèrent et reçoivent les signaux expérimentaux.
+La première partie constituant ADWin est l'ordinateur permettant le stockage des données et l'interface graphique. Vient ensuite le processeur propre à ADWin qui garantit la répétition de suites d'instructions toutes les 3,3ns. Ceci est une nécessité car un OS (multitâche) ne pourrait garantir une base de temps inférieur à 10ms et compromettrait le résultat de l'électromigration. Enfin les convertisseurs génèrent et reçoivent les signaux expérimentaux.
 
-Un des autres avantages d'ADWin est la diminution du bruit. En incrémentant bit par bit des rampes de mesures (tension, courant) et grâce à la très petite base de temps du système on peut balayer des plages entière de (tension, courant, charges) en des temps très faible et obtenir une très bonne précision.
+Un des autres avantages d'ADWin est la diminution du bruit. En incrémentant bit par bit des rampes de mesures (tension, courant) et grâce à la très petite base de temps du système on peut balayer des plages entière de tension, courant, charges en des temps très faible et obtenir une très bonne précision.
 
 \section{Le fullerène}
 Les fullerènes sont des molécules composées de carbone d'un nanomètre de diamètre. Leur découverte en 1985 a donné lieu au prix Nobel de chimie 1996 et à toute une nouvelle classe de matériau massique. Le fullerène utilisé est le C$_{60}$, une molécule très simple de la forme d'un ballon de football.
@@ -34,7 +34,7 @@ Les fullerènes sont des molécules composées de carbone d'un nanomètre de dia
     \end{center}
 \end{figure}
 
-On dépose le fullerène C$_{60}$ avant l'étape d'électromigration et on espère qu'une molécule tombe dans le gap créé sur le nanofil d'or. La probabilité d'occurrence est plus importante que si l'on essaye de déposer une molécule dans un gap préexistant. On essaye d'avoir des molécules uniques de C$_{60}$ plutôt que des agrégats car la molécule unique présente une énergie de charge plus importante et un couplage à l'environnement moins fort gage de stabilité. Une dilution dans le toluène permet de caractériser si une solution est composée de molécule unique (couleur jaune) ou d'agrégats (couleur violette).
+On dépose le fullerène C$_{60}$ avant l'étape d'électromigration et on espère qu'une molécule tombe dans le gap créé sur le nanofil d'or. La probabilité d'occurrence est plus importante que si l'on essaye de déposer une molécule dans un gap préexistant. On essaye d'avoir des molécules uniques de C$_{60}$ plutôt que des agrégats car la molécule unique présente une énergie de charge plus importante et un couplage à l'environnement moins fort gage de stabilité. Une dilution dans le toluène permet de caractériser si une solution est composée de molécules uniques (couleur jaune) ou d'agrégats (couleur violette).
 
 
 \section{L'électromigration}
@@ -48,7 +48,7 @@ Dans les métaux c'est principalement le vent d'électrons qui est responsable d
 
 Il faut maintenant pouvoir suivre l'électromigration pour pouvoir réaliser un nanogap, cela est possible grâce à une mesure en temps réel de la conductance (ou la résistance) à l'aide d'ADWin.\\
 
-Au cours de l'électromigration, les propriété de conduction vont évoluer et on peut distinguer deux régimes de conduction :
+Au cours de l'électromigration, les propriétés de conduction vont évoluer et on peut distinguer deux régimes de conduction :
 \begin{description}
     \item[Le régime diffusif,] lorsque le libre parcours moyen ($L_m \simeq 10nm$) est inférieur aux dimensions du nanofil
     \item[Le régime ballistique,] lorsque le libre parcours moyen est supérieur aux dimensions du nanofil
@@ -84,12 +84,12 @@ On considère un îlot quantique, placé entre 3 électrodes : le drain, la sour
 
 L'îlot possède donc une énergie électrostatique E${_c}$.
 
-Ainsi, il va falloir apporter de l'énergie à un électron pour pouvoir le faire rentrer dans l'îlot Quantique. Si $V_{sd}>0$, il va être plus simple  d'injecter un électron dans l'îlot depuis la source plutôt que depuis le drain. Une fois l'électron apporté dans l'îlot, on modifie l'énergie à l'intérieur de l'îlot, ce qui va rendre plus difficile l'entrée d'un nouvel électron (on passe de N à N+1). Cette variation d'énergie doit être négative si l'on veut continuer à rentrer des électrons:
+Ainsi, il va falloir apporter de l'énergie à un électron pour pouvoir le faire rentrer dans l'îlot Quantique. Si $V_{sd}>0$, il va être plus simple  d'injecter un électron dans l'îlot depuis la source plutôt que depuis le drain. Une fois l'électron apporté dans l'îlot, on modifie l'énergie à l'intérieur de l'îlot, ce qui va rendre plus difficile l'entrée d'un nouvel électron (on passe de N à N+1). Cette variation d'énergie doit être négative si l'on veut continuer à faire rentrer des électrons:
 \[\Delta E = \frac{e}{C_1 + C_2 + C_G}\left((N + \frac{1}{2})e - C_G V_G - C_2 V_D\right)\]
 ce qui donne la condition :
 \[V_D > (N + \frac{1}{2})\frac{e}{C_2} - \frac{C_G}{C_2}V_G\]
 
-De manière analogue, si $V_{sd}>0$, il va être plus facile de sortir un électron de l'îlot par le drain que par la source (on passe de N à N-1). On va cette fois ci avoir une variation d'énergie positive si l'on veut arrêter de rentrer des électrons dans l'îlot :
+De manière analogue, si $V_{sd}>0$, il va être plus facile de sortir un électron de l'îlot par le drain que par la source (on passe de N à N-1). On va cette fois ci avoir une variation d'énergie positive si l'on veut arrêter de faire rentrer des électrons dans l'îlot :
 \[\Delta E = \frac{e}{C_1 + C_2 + C_G}\left(-(N + \frac{1}{2})e + C_G V_G - (C_1 + C_G) V_D\right)\]
 (car il va être plus simple de rentrer un nouvel électron). Cette variation va donner la condition:
 \[V_D > - (N + \frac{1}{2})\frac{e}{C_1 + C_G} + \frac{C_G}{C_1 + C_G}V_G\]
