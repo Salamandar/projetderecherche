@@ -159,7 +159,7 @@ Nous avons donc commencé la journée avec 3 plaques de Al_2O_3, avec chacune 4 
 Un groupe de transistors avec grille et source communes
 Le dépôt de Fullerène
 Nous sommes donc allés en salle propre de dépôt chimique afin de déposer sur ces plaques le Fullerène, en solution de Toluène.
-Cette solution, conservée dans un frigo, est parfaitement inerte, ce qui nous autorise à la conserver très longtemps : celle que nous avons utilisé date de 2009 et est encore utilisable.
+Cette solution, conservée dans un frigo, est parfaitement inerte, ce qui nous autorise à la conserver très longtemps : celle que nous avons utilisée date de 2009 et est encore utilisable.
 
 Le dépôt se fait à l'aide d'une micropipette, et sous hotte aspirante afin d'éviter toute inhalation de fullerène et toute pollution de l'échantillon.
 La solution est assez faible en agrégats, et ceux qui ont pu se former se trouvent essentiellement à la surface et au fond de la solution. Nous sommes donc allés récupérer la solution au milieu du bécher.
@@ -168,10 +168,10 @@ Une expérience à 4.2K grâce à l'hélium liquide
 Une fois le Fullerène déposé, nous avons fixé les plaques sur un plateau. La fixation se fait à la laque d'argent.
 Dans le testeur sous pointes, l'échantillon sera dans une cavité sous vide (vide secondaire de l'ordre de 4-10 millibars). L'unique contact thermique avec les échantillons sera donc par ce plateau. Celui-ci doit être efficace. Sinon, les échantillons seront à haute température et nous n'aurons donc pas du tout le comportement attendu.
 L'argent est un très bon conducteur thermique et la laque d'argent permet d'avoir un contact uniforme entre les échantillons et le plateau.
-De plus, l'argent nous permet d'avoir une bonne mise à la masse des échantillons et donc de minimiser les risques de choc électrique qui risqueraient de détruire les jonctions formées.
+De plus, l'argent nous permet d'avoir une bonne mise à la masse des échantillons et donc de minimiser les risques de chocs électriques qui risqueraient de détruire les jonctions formées.
 échantillon collé à l'aide de laque d'argent
 
-Pour empêcher un maximum le réchauffement du au rayonnement l'échantillon est placé sous deux écrans. Le premier  écran est à 10K est placé au niveau du hublot. Le deuxième écran est à 300K (température de la pièce). On peut alors efficacement refroidir à 4.2K. Au préalable, il a fallu faire le vide entre les deux écrans et l'écran intermédiaire et l'échantillon pour empêcher tout réchauffement par conduction ou convection et  pour empêcher que l'air ne gèle autour de l'échantillon ce qui interdirait toute manipulation
+Pour empêcher un maximum le réchauffement dû au rayonnement l'échantillon est placé sous deux écrans. Le premier  écran est à 10K est placé au niveau du hublot. Le deuxième écran est à 300K (température de la pièce). On peut alors efficacement refroidir à 4.2K. Au préalable, il a fallu faire le vide entre les deux écrans et l'écran intermédiaire et l'échantillon pour empêcher tout réchauffement par conduction ou convection et  pour empêcher que l'air ne gèle autour de l'échantillon ce qui interdirait toute manipulation
 
 L'Hélium Liquide
 Comme dit précédemment, nous pouvons effectuer cette expérience à 4.2K grâce à l'Hélium liquide. Et, heureusement, l'hélium liquide est facile d'accès à l'Institut Néel.
@@ -201,10 +201,10 @@ L'électromigration
 L'électromigration consiste, comme nous l'avons expliqué précédemment, à appliquer à l'échantillon une tension suffisamment forte pour “détruire” le fil d'or et créer un nanogap.
 ADWin nous permet d'avoir une mesure suffisamment rapide du courant et d'arrêter l'électromigration suffisamment rapidement pour ne pas risquer d'abîmer le nanogap créé.
 
-Nous pouvions observer en temps réel les courbes de courant et de résistivité de l'échantillon. Pour un échantillon correct nous observions bien la rampe de tension appliquée puis le comportement classique d'électromigration, dont la chute par paliers du courant.
+Nous pouvions observer en temps réel les courbes de courant et de résistivité de l'échantillon. Pour un échantillon correct nous observions bien la rampe de tension appliquée puis le comportement classique d'électromigration, dont la chute par palier du courant.
 Pour un échantillon abîmé -- ce fut malheureusement le cas pour beaucoup, dû à un problème en salle blanche en amont --, nous pouvions observer une résistivité qui croit linéairement dès l'application de la tension.
 L'étude du blocage de Coulomb
-Après avoir effectué l'électromigration avec succès sur un échantillon, il nous fallait vérifier la présence d'une molécule de Fullerène dans le nanogap tout juste créé. Pour cela, on mesure le courant Id en faisant varier la tension appliqué à la grille. Si aucun courant n'est observé, alors aucune molécule de Fullerène ne s'est logé à l'intérieur du nanogap. Si l'on observe des pics de courant pour certaines valeurs discrètes de Vg, c'est que l'on est en présence d'une boite quantique. Lorsque les conditions sont vérifiées, par rapport aux équations établis dans la partie théorique, le courant peut passer ou non. On contrôle donc un courant  à partir d’une tension appliquée à une électrode de grille: on vient donc de réaliser un transistor à molécule unique.
+Après avoir effectué l'électromigration avec succès sur un échantillon, il nous fallait vérifier la présence d'une molécule de Fullerène dans le nanogap tout juste créé. Pour cela, on mesure le courant Id en faisant varier la tension appliquée à la grille. Si aucun courant n'est observé, alors aucune molécule de Fullerène ne s'est logé à l'intérieur du nanogap. Si l'on observe des pics de courant pour certaines valeurs discrètes de Vg, c'est que l'on est en présence d'une boite quantique. Lorsque les conditions sont vérifiées, par rapport aux équations établis dans la partie théorique, le courant peut passer ou non. On contrôle donc un courant  à partir d’une tension appliquée à une électrode de grille: on vient donc de réaliser un transistor à molécule unique.
 
 On peut aussi observer le courant pour des valeurs variables de Vg et Vds. Le courant Id mesuré est représenté en 3ème dimension ou en couleurs. Nous pouvons alors observer la forme caractéristique des diamants de Coulomb, dont la frontière correspond aux pics de courant évoqués précédemment.
 Résultats obtenus
@@ -226,12 +226,12 @@ La mobilité des atomes est activée par la température. Localement (au niveau 
 Observation du blocage de Coulomb
 
 Pour savoir si une molécule de C60 est tombé dans le nanogap, On trace la caractéristique I(V) pour différentes valeurs de la tension de grille Vg. L'influence de la boite quantique produira différentes caractéristiques, au contraire les caractéristiques seront toutes confondues si le gap est vide.
- Notons bien qu'il faut toujours utiliser des rampes de tensions entre la connexion et la déconnexion pour ne pas casser les les fronts montants ou descendants en voyant des fronts d'une amplitude de 1V.
+ Notons bien qu'il faut toujours utiliser des rampes de tension entre la connexion et la déconnexion pour ne pas casser les fronts montants ou descendants en voyant des fronts d'une amplitude de 1V.
 
 Id=f(Vg) on observe bien des pics de Coulomb (ici il pourrait s'agir d'un unique pic)
 
 Sur la courbe Vds(Vg) on cherche à observer les diamants de Coulomb. Les différents pics mesurés doivent être également présents lorsqu'on envoie un tension drain-source négative, on est alors sur d'avoir non pas du bruit mais bien un pic lié au blocage de Coulomb.
-Malheureusement nous n'avons pas pu mesurer des diamants de Coulomb exploitable, selon Franck Balestro 1 transistor sur 100 donne des résultats d'une bonne qualité.
+Malheureusement nous n'avons pas pu mesurer des diamants de Coulomb exploitables, selon Franck Balestro 1 transistor sur 100 donne des résultats d'une bonne qualité.
 Quelques cas particuliers
 Après ces considérations générales étudions quelques cas particuliers, et plus précisément des observations obtenues lorsque des problèmes ont été rencontrés au cours de l'expérience.
 
@@ -248,13 +248,13 @@ Dans ce cas, le nanofil a déjà été endommagé avec que l’électromigration
 
 Grille endommagée:
 
-On a toujours Id(Vg). On peut voir un fonctionnement de transistor, c’est à dire des pics de courants pour certaines valeurs de tension de grille mais on observe à partir d’une certaine valeur de Vg que le courant Id est toujours supérieur à 0. On a donc toujours un courant qui circule à travers la molécule. De plus, on observe beaucoup de bruit pour Vg supérieur à 4V. La grille est endomagée, la transistor ne fonctionne pas normalement
+On a toujours Id(Vg). On peut voir un fonctionnement de transistor, c’est à dire des pics de courant pour certaines valeurs de tension de grille mais on observe à partir d’une certaine valeur de Vg que le courant Id est toujours supérieur à 0. On a donc toujours un courant qui circule à travers la molécule. De plus, on observe beaucoup de bruit pour Vg supérieur à 4V. La grille est endomagée, la transistor ne fonctionne pas normalement
 
 
 Grille détruite (au delà de Vg=7V on détruit la grille):
 
 
-Quand on applique une trop grande tension à la grille, celle-ci claque. On a plus du tout de contrôle sur le transistor à molécule unique. On a passage du courant quand Vg=0, sinon il n’y a pas de courant qui passe par le drain.
+Quand on applique une tension  trop grande à la grille, celle-ci claque. On a plus du tout de contrôle sur le transistor à molécule unique. On a passage du courant quand Vg=0, sinon il n’y a pas de courant qui passe par le drain.
 Aller plus loin? Vers de nouvelles expériences…
 Une expérience à 20mK
 Les éxpériences actuelles de l'équipe n'utilisent ni des molécules de Fulerène, ni un testeur sous pointes et n'ont pas lieu à 4,2K. De plus le convertisseur courant-tension n'est pas un modèle commercial mais a été fabriqué au CNRS pour permettre des mesures ultra bas bruit.
