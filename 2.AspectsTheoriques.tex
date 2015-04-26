@@ -1,18 +1,16 @@
 \section{Le testeur sous pointes et ADWin}
 \begin{figure}[h]
     \begin{center}
-        \includegraphics[width=250px]{Images/ADWin_avec_legendes}
+        \includegraphics[width=250px]{Images/2_ADWin_avec_legendes}
         \caption{Le Testeur sous Pointes}
-        \label{fig:}
         Photo disponible à \url{https://tel.archives-ouvertes.fr/tel-00456601v2/document}
     \end{center}
 \end{figure}
 Pour réaliser l'électromigration, on a besoin du testeur sous pointes qui, grâce à ses quatre bras orientables supportant les pointes, permet d'imposer une rampe de tension et de mesurer simultanément la conductance. Le testeur sous pointe possède un accès optique permettant de connecter rapidement les échantillons et de les refroidir à 4,2K. Notons que le contact est moins bon qu'avec des microsoudures. 
 \begin{figure}[h]
     \begin{center}
-        \includegraphics[width=250px]{Images/ADWin_schema}
+        \includegraphics[width=250px]{Images/2_ADWin_schema}
         \caption{Schéma de fonctionnement d'ADWin}
-        \label{fig:}
         Schéma disponible à \url{https://tel.archives-ouvertes.fr/tel-00456601v2/document}
     \end{center}
 \end{figure}
@@ -28,9 +26,8 @@ Les fullerènes sont des molécules composées de carbone d'un nanomètre de dia
 
 \begin{figure}[h]
     \begin{center}
-        \includegraphics[width=100px]{Images/C60.png}
+        \includegraphics[width=100px]{Images/2_C60.png}
         \caption{Structure de la molécule de Fullerène}
-        \label{fig:}
     \end{center}
 \end{figure}
 
@@ -38,15 +35,15 @@ On dépose le fullerène C$_{60}$ avant l'étape d'électromigration et on espè
 
 
 \section{L'électromigration}
-L'électromigration est un phénomène bien connu en microélectronique. Il s'agit d'un transport de matière observé dans les métaux traversés par de fortes densités de courant ; c'est une cause d'endommagement des interconnexions métalliques et donc de fiabilité dans les circuits intégrés\cite{8}. Ce phénomène est néfaste pour la microélectronique "classique", mais son utilisation est très intéressante pour la réalisation de transistors à molécule unique. En effet il faut que la molécule soit reliée à un dispositif métallique macroscopique et donc que les électrodes (source-drain) soient séparées d'une distance nanométrique proche de la taille de la molécule ; ce qui est impossible par des méthodes de nanofabrication limitées à environ 10nm de résolution, alors qu'une résolution inférieure est possible grâce à l'électromigration\cite{9}.\\
+L'électromigration est un phénomène bien connu en microélectronique. Il s'agit d'un transport de matière observé dans les métaux traversés par de fortes densités de courant ; c'est une cause d'endommagement des interconnexions métalliques et donc de fiabilité dans les circuits intégrés\cite{8}. Ce phénomène est néfaste pour la microélectronique "classique", mais son utilisation est très intéressante pour la réalisation de transistors à molécule unique. En effet il faut que la molécule soit reliée à un dispositif métallique macroscopique et donc que les électrodes (source-drain) soient séparées d'une distance nanométrique proche de la taille de la molécule ; ce qui est impossible par des méthodes de nanofabrication limitées à environ 10nm de résolution, alors qu'une résolution inférieure est possible grâce à l'électromigration\cite{9}.\medskip 
 
 Intéressons-nous maintenant à la description théorique de l'électromigration, "mise en mouvement des atomes par un métal causée par l'application d'un champ électrique". La force de transport peut être notée :
 \[\vec{F}=e Z^* \vec{E}\]
 où le terme $Z^*$ se décompose en deux parties, l'une modélisant l'effet du champ électrostatique, l'autre le "vent des électrons" qui transmettent leurs mouvements aux ions.
 \[Z^* = Z_{\text{electrostatique}} + Z_{\text{vent}}\]
-Dans les métaux c'est principalement le vent d'électrons qui est responsable du transport, ainsi le transport de matière a lieu dans le sens de circulation des électrons\cite{10}.\\
+Dans les métaux c'est principalement le vent d'électrons qui est responsable du transport, ainsi le transport de matière a lieu dans le sens de circulation des électrons\cite{10}.\medskip 
 
-Il faut maintenant pouvoir suivre l'électromigration pour pouvoir réaliser un nanogap, cela est possible grâce à une mesure en temps réel de la conductance (ou la résistance) à l'aide d'ADWin.\\
+Il faut maintenant pouvoir suivre l'électromigration pour pouvoir réaliser un nanogap, cela est possible grâce à une mesure en temps réel de la conductance (ou la résistance) à l'aide d'ADWin.\medskip 
 
 Au cours de l'électromigration, les propriétés de conduction vont évoluer et on peut distinguer deux régimes de conduction :
 \begin{description}
@@ -59,11 +56,10 @@ Or dans le cas du régime balistique, d'après la formule de Landauer Buttiker, 
 avec les T probabilités de transmission pour les N canaux de conduction.
 \begin{figure}[h]
     \begin{center}
-        \includegraphics[width=250px]{Images/Electromigration_graphe}
+        \includegraphics[width=250px]{Images/2_Electromigration_graphe}
         \caption{Variation de G en fonction du temps à la fin d'une électromigration (au moment de l'ouverture du nanogap).
 On observe bien des paliers de conductance}
         Photo disponible à \url{https://tel.archives-ouvertes.fr/tel-00515127/document}
-        \label{fig:}
     \end{center}
 \end{figure}
 
@@ -76,9 +72,8 @@ En réalité on stoppera plutôt notre expérience à R>2R${_0}$ qui expériment
 On considère un îlot quantique, placé entre 3 électrodes : le drain, la source et la grille. Le drain et la source sont séparés de l'îlot par des jonctions tunnels. On note V${_d}$, V${_s}$ et V${_g}$ respectivement les tensions de drain, source et grille. De plus, on note N le nombre d'électrons à l'intérieur de l'îlot. 
 \begin{figure}[h]
     \begin{center}
-        \includegraphics[width=250px]{Images/Blocage_Coulomb_Schema}
+        \includegraphics[width=250px]{Images/2_Blocage_Coulomb_Schema}
         \caption{Schéma équivalent du transistor}
-        \label{fig:}
     \end{center}
 \end{figure}
 
@@ -102,9 +97,8 @@ De même, en refaisant le raisonnement pour $V_{sd}<0$. Dans ce cas, il sera plu
 À présent, on peut visualiser les diamants de Coulomb et les domaines de blocage de Coulomb quand on trace les droites dans le plan ($V_{sd}$,$V_{g}$). Quand on est sur une droite, on a dans l'îlot N électrons. Ces droites coupent l'espace ($V_{sd}$,$V_{g}$) en 2 demi-plans avec chacun une certaine condition (impossibilité de faire transiter un électron par la source ou le drain par exemple).
 \begin{figure}[h]
     \begin{center}
-        \includegraphics[width=250px]{Images/Diamant_Coulomb_Theorie.png}
+        \includegraphics[width=250px]{Images/2_Diamant_Coulomb_Theorie.png}
         \caption{Diamant de Coulomb théorique}
-        \label{fig:}
     \end{center}
 \end{figure}
 
