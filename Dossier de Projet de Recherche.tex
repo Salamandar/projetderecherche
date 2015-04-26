@@ -3,6 +3,7 @@
 \usepackage[utf8]{inputenc}
 \usepackage{lmodern}
 \usepackage[francais]{babel}
+\addto{\captionsfrench}{\renewcommand{\abstractname}{Introduction}}
 \usepackage[top=2cm,left=2.2cm,right=2.2cm,bottom=2cm]{geometry} % Géométrie de la page, modifier selon le besoin
 \usepackage{lmodern, wrapfig, textcomp, tikz, graphicx, amsmath, tikz-qtree, xcolor,rotating,epic,eepic}
 \usepackage[colorlinks,linkcolor=black, urlcolor=blue]{hyperref}
@@ -19,7 +20,8 @@
 \nocite{*}
 \input{0.Couverture}
 
-\begin{abstract}
+\chapter*{Introduction}
+\addcontentsline{toc}{chapter}{Introduction}
 L'équipe avec laquelle s'est effectué notre projet de recherche est l'équipe Nanospintronique et Transport Moléculaire de l'institut Louis Néel. Et c'est en particulier Franck Balestro qui nous a encadré lors de l'expérience et en amont de celle-ci.\\
 \begin{figure}[h]
     \begin{center}
@@ -34,7 +36,7 @@ L'équipe travaille à la manipulation et à la lecture de spins nucléaires uni
 Les enjeux sont donc immenses, particulièrement dans un contexte où la réduction des dimensions des transistors devient de plus en plus problématique et où le besoin en puissance de calcul de nos ordinateurs devient de plus en plus important ; une "nouvelle électronique" peut être la solution.\medskip
 
 Pour notre part nous avons réalisé un transistor à molécule unique à l'aide de fullerène. Une telle molécule ne possède pas de propriété particulière mais permet de comprendre le fonctionnement général des transistors à molécule unique. Historiquement, c'est la toute première molécule utilisée pour ce type de réalisation en 2000 par l'équipe de Park\cite{13}.
-\end{abstract}
+
 
 \chapter{État de l'art}
 \input{1.EtatDeL'Art}

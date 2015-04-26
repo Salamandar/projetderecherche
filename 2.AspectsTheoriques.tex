@@ -1,23 +1,24 @@
 \section{Le testeur sous pointes et ADWin}
+Pour réaliser l'électromigration, on a besoin du testeur sous pointes qui, grâce à ses quatre bras orientables supportant les pointes, permet d'imposer une rampe de tension et de mesurer simultanément la conductance. Le testeur sous pointe possède un accès optique permettant de connecter rapidement les échantillons et de les refroidir à 4,2K. Notons que le contact est moins bon qu'avec des microsoudures.
+
 \begin{figure}[h]
     \begin{center}
         \includegraphics[width=250px]{Images/2_ADWin_avec_legendes}
         \caption{Le Testeur sous Pointes}
-        Photo disponible à \url{https://tel.archives-ouvertes.fr/tel-00456601v2/document}
+        %Photo disponible à \url{https://tel.archives-ouvertes.fr/tel-00456601v2/document}
     \end{center}
 \end{figure}
-Pour réaliser l'électromigration, on a besoin du testeur sous pointes qui, grâce à ses quatre bras orientables supportant les pointes, permet d'imposer une rampe de tension et de mesurer simultanément la conductance. Le testeur sous pointe possède un accès optique permettant de connecter rapidement les échantillons et de les refroidir à 4,2K. Notons que le contact est moins bon qu'avec des microsoudures. 
+On doit disposer d'une électronique de mesure en temps réel et d'une détection synchrone : c'est le rôle d'ADWin.
+
+La première partie constituant ADWin est l'ordinateur permettant le stockage des données et l'interface graphique. Vient ensuite le processeur propre à ADWin qui garantit la répétition de suites d'instructions toutes les 3,3ns. Ceci est une nécessité car un OS (multitâche) ne pourrait garantir une base de temps inférieure à 10ms et compromettrait le résultat de l'électromigration. Enfin les convertisseurs génèrent et reçoivent les signaux expérimentaux.
+
 \begin{figure}[h]
     \begin{center}
         \includegraphics[width=250px]{Images/2_ADWin_schema}
         \caption{Schéma de fonctionnement d'ADWin}
-        Schéma disponible à \url{https://tel.archives-ouvertes.fr/tel-00456601v2/document}
+        %Schéma disponible à \url{https://tel.archives-ouvertes.fr/tel-00456601v2/document}
     \end{center}
 \end{figure}
-
-On doit disposer d'une électronique de mesure en temps réel et d'une détection synchrone : c'est le rôle d'ADWin.
-
-La première partie constituant ADWin est l'ordinateur permettant le stockage des données et l'interface graphique. Vient ensuite le processeur propre à ADWin qui garantit la répétition de suites d'instructions toutes les 3,3ns. Ceci est une nécessité car un OS (multitâche) ne pourrait garantir une base de temps inférieure à 10ms et compromettrait le résultat de l'électromigration. Enfin les convertisseurs génèrent et reçoivent les signaux expérimentaux.
 
 Un des autres avantages d'ADWin est la diminution du bruit. En incrémentant bit par bit des rampes de mesures (tension, courant) et grâce à la très petite base de temps du système on peut balayer des plages entières de tension, courant, charges en des temps très faible et obtenir une très bonne précision.
 
@@ -58,8 +59,8 @@ avec les T probabilités de transmission pour les N canaux de conduction.
     \begin{center}
         \includegraphics[width=250px]{Images/2_Electromigration_graphe}
         \caption{Variation de G en fonction du temps à la fin d'une électromigration (au moment de l'ouverture du nanogap).
-On observe bien des paliers de conductance}
-        Photo disponible à \url{https://tel.archives-ouvertes.fr/tel-00515127/document}
+On observe bien des paliers de conductance.}
+        %Photo disponible à \url{https://tel.archives-ouvertes.fr/tel-00515127/document}
     \end{center}
 \end{figure}
 
