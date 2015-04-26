@@ -10,8 +10,8 @@ Nous avons donc commencé la journée avec 3 plaques de Al$_2$O$_3$, avec chacun
     \end{center}
 \end{figure}
 \section{Le dépôt de Fullerène}
-Nous sommes donc allés en salle propre de dépôt chimique afin de déposer sur ces plaques le Fullerène, en solution de Toluène.
-Cette solution, conservée dans un frigo, est parfaitement inerte, ce qui nous autorise à la conserver très longtemps: celle que nous avons utilisé date de 2009 et est encore utilisable.\\
+Nous sommes donc allés en salle propre de dépôt chimique afin de déposer sur ces plaques le Fullerène, en solution dans le Toluène.
+Cette solution, conservée dans un frigo, est parfaitement inerte, ce qui nous autorise à la conserver très longtemps: celle que nous avons utilisée date de 2009.\\
 
 Le dépôt se fait à l'aide d'une micropipette, et sous hotte aspirante afin d'éviter toute inhalation de fullerène et toute pollution de l'échantillon.
 La solution est assez faible en agrégats, et ceux qui ont pu se former se trouvent essentiellement à la surface et au fond de la solution. Nous sommes donc allés récupérer la solution au milieu du bécher.
@@ -22,11 +22,11 @@ Enfin, nous avons laissé s'évaporer le Toluène naturellement.
 \section{Une expérience à 4.2K grâce à l'hélium liquide}
 Une fois le Fullerène déposé, nous avons fixé les plaques sur un plateau. La fixation se fait à la laque d'argent.
 
-Dans le testeur sous pointes, l'échantillon sera dans une cavité sous vide (vide secondaire de l'ordre de 4-10 millibars). L'unique contact thermique avec les échantillons sera donc par ce plateau. Celui-ci doit être efficace. Sinon, les échantillons seront à haute température et nous n'aurons donc pas du tout le comportement attendu.
+Dans le testeur sous pointes, l'échantillon sera dans une cavité sous vide (vide secondaire de l'ordre de $10^{-4}$ millibars). L'unique contact thermique avec les échantillons sera donc par ce plateau. Celui-ci doit être efficace. Sinon, les échantillons seront à haute température et nous n'aurons donc pas du tout le comportement attendu.
 
 L'argent est un très bon conducteur thermique et la laque d'argent permet d'avoir un contact uniforme entre les échantillons et le plateau.
 
-De plus, l'argent nous permet d'avoir une bonne mise à la masse des échantillons et donc de minimiser les risques de choc électrique qui risqueraient de détruire les jonctions formées.
+De plus, l'argent nous permet d'avoir une bonne mise à la masse des échantillons et donc de minimiser les risques de chocs électriques qui risqueraient de détruire les jonctions formées.
 \begin{figure}[h]
     \begin{center}
         \includegraphics[width=250px]{Images/PhotoPlaqueTransistors}
@@ -53,7 +53,7 @@ La manipulation de la bouteille d'hélium doit se faire avec précaution. En eff
 
 \section{Les méthodes de mesure}
 \subsection{La mesure de résistivité}
-Afin de vérifier que nos pointes sont correctement connectées et qu'il y a bien un nanofil entre elles, on utilise un ohmmètre spécialisé délivrant des micro-ampères. En effet la largeur de transport est de quelques atomes d'or et un courant classique de l'ordre du mA détruirait immédiatement nos échantillons.
+Afin de vérifier que nos pointes sont correctement connectées et qu'il y a bien un nanofil entre elles, on utilise un ohmmètre spécialisé délivrant des micro-ampères. En effet la largeur de transport est de quelques atomes d'or et un ohmmètre délivrant un courant l'ordre du mA détruirait immédiatement nos échantillons.
 Nous polarisons nos échantillons en tension, et cherchons donc à mesurer le courant traversant les échantillons.
 On transforme le courant en une tension par l'intermédiaire d'un convertisseur courant-tension présentant différents facteurs, afin d'effectuer nos mesures. Lors de l'électromigration on utilise un facteur $10^3$ pour mesurer des uA.
 Pour observer les diamants de Coulomb on mesure des faibles courant (nA), on sélectionne le facteur $10^6$ sur le convertisseur. 
@@ -75,9 +75,13 @@ Le principal risque vient donc des pointes: Si on les fait bouger alors qu'une t
 \section{L'électromigration}
 L'électromigration consiste, comme nous l'avons expliqué précédemment, à appliquer à l'échantillon une tension suffisament forte pour “détruire” le fil d'or et créer un nanogap.
 ADWin nous permet d'avoir une mesure suffisament rapide du courant et d'arrêter l'électromigration suffisament rapidement pour ne pas risquer d'abîmer le nanogap créé.
-Nous pouvions observer en temps réel les courbes de courant et de résistivité de l'échantillon. Pour un échantillon correct nous observions bien la rampe de tension appliquée puis le comportement classique d'électromigration, dont la chute par paliers du courant.
-Pour un échantillon abîmé -- ce fut malheureusement le cas pour beaucoup, dû à un problème en salle blanche en amont --, nous pouvions observer une résistivité qui croît linéairement dès l'application de la tension.
+Nous pouvions observer en temps réel les courbes de courant et de résistivité de l'échantillon. Pour un échantillon correct nous observions bien une caractéristique classique d'électromigration, dont la chute par paliers de courant.
+Pour un échantillon abîmé -- ce fut malheureusement le cas pour beaucoup, dû à un problème en amont --, nous pouvions observer une résistivité qui croît linéairement dès l'application de la tension.
+
+Bien que cette mesure ait été réalisée nous n'avons pas pu en tirer de résultats exploitables. En effet, seul un transistor sur 100 en moyenne le permet.
+
+
 \section{L'étude du blocage de Coulomb}
-Après avoir effectué l'électromigration avec succès sur un échantillon, il nous fallait vérifier la présence d'une molécule de Fullerène dans le nanogap tout juste créé. Pour cela, on mesure le courant Id en faisant varier la tension appliqué à la grille. Si aucun courant n'est observé, alors aucune molécule de Fullerène ne s'est logée à l'intérieur du nanogap. Si l'on observe des pics de courant pour certaines valeurs discrètes de Vg, c'est que l'on est en présence d'une boite quantique. Lorsque les conditions sont vérifiées par rapport aux équations établies dans la partie théorique, le courant peut passer ou non. On contrôle donc un courant à partir d'une tension appliquée à une électrode de grille: on vient donc de réaliser un transistor à molécule unique.
+Après avoir effectué l'électromigration avec succès sur un échantillon, il nous fallait vérifier la présence d'une molécule de Fullerène dans le nanogap tout juste créé. Pour cela, on mesure le courant Id en faisant varier la tension appliquée à la grille. Si aucun courant n'est observé, alors aucune molécule de Fullerène ne s'est logée à l'intérieur du nanogap. Si l'on observe des pics de courant pour certaines valeurs discrètes de Vg, c'est que l'on est en présence d'une boite quantique. Lorsque les conditions sont vérifiées par rapport aux équations établies dans la partie théorique, le courant peut passer ou non. On contrôle donc un courant à partir d'une tension appliquée à une électrode de grille: on vient donc de réaliser un transistor à molécule unique.
 
 On peut aussi observer le courant pour des valeurs variables de Vg et Vds. Le courant Id mesuré est représenté en 3ème dimension ou en couleurs. Nous pouvons alors remarquer la forme caractéristique des diamants de Coulomb, dont la frontière correspond aux pics de courant évoqués précédemment.

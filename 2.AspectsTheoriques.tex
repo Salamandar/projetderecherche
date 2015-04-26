@@ -19,9 +19,9 @@ Pour réaliser l'électromigration, on a besoin du testeur sous pointes qui, gr�
 
 On doit disposer d'une électronique de mesure en temps réel et d'une détection synchrone : c'est le rôle d'ADWin.
 
-La première partie constituant ADWin est l'ordinateur permettant le stockage des données et l'interface graphique. Vient ensuite le processeur propre à ADWin qui garantit la répétition de suites d'instructions toutes les 3,3ns. Ceci est une nécessité car un OS (multitâche) ne pourrait garantir une base de temps inférieur à 10ms et compromettrait le résultat de l'électromigration. Enfin les convertisseurs génèrent et reçoivent les signaux expérimentaux.
+La première partie constituant ADWin est l'ordinateur permettant le stockage des données et l'interface graphique. Vient ensuite le processeur propre à ADWin qui garantit la répétition de suites d'instructions toutes les 3,3ns. Ceci est une nécessité car un OS (multitâche) ne pourrait garantir une base de temps inférieure à 10ms et compromettrait le résultat de l'électromigration. Enfin les convertisseurs génèrent et reçoivent les signaux expérimentaux.
 
-Un des autres avantages d'ADWin est la diminution du bruit. En incrémentant bit par bit des rampes de mesures (tension, courant) et grâce à la très petite base de temps du système on peut balayer des plages entière de tension, courant, charges en des temps très faible et obtenir une très bonne précision.
+Un des autres avantages d'ADWin est la diminution du bruit. En incrémentant bit par bit des rampes de mesures (tension, courant) et grâce à la très petite base de temps du système on peut balayer des plages entières de tension, courant, charges en des temps très faible et obtenir une très bonne précision.
 
 \section{Le fullerène}
 Les fullerènes sont des molécules composées de carbone d'un nanomètre de diamètre. Leur découverte en 1985 a donné lieu au prix Nobel de chimie 1996 et à toute une nouvelle classe de matériau massique. Le fullerène utilisé est le C$_{60}$, une molécule très simple de la forme d'un ballon de football.
@@ -60,7 +60,7 @@ avec les T probabilités de transmission pour les N canaux de conduction.
 \begin{figure}[h]
     \begin{center}
         \includegraphics[width=250px]{Images/Electromigration_graphe}
-        \caption{Variation de G en fonction du temps à la fin d’une électromigration (au moment de l’ouverture du nanogap).
+        \caption{Variation de G en fonction du temps à la fin d'une électromigration (au moment de l'ouverture du nanogap).
 On observe bien des paliers de conductance}
         Photo disponible à \url{https://tel.archives-ouvertes.fr/tel-00515127/document}
         \label{fig:}
@@ -94,7 +94,7 @@ De manière analogue, si $V_{sd}>0$, il va être plus facile de sortir un élect
 (car il va être plus simple de rentrer un nouvel électron). Cette variation va donner la condition:
 \[V_D > - (N + \frac{1}{2})\frac{e}{C_1 + C_G} + \frac{C_G}{C_1 + C_G}V_G\]
 
-De même, on refait les mêmes raisonnements pour $V_{sd}<0$. Dans ce cas, il sera plus simple de rentrer un électron dans l'îlot à partir du drain et d'en sortir un à partir de la source. On obtient deux nouvelles conditions similaires au cas où  $V_{d}>0$ :
+De même, en refaisant le raisonnement pour $V_{sd}<0$. Dans ce cas, il sera plus simple de rentrer un électron dans l'îlot à partir du drain et d'en sortir un à partir de la source. On obtient deux nouvelles conditions similaires au cas où  $V_{d}>0$ :
 \[V_D < - (N + \frac{1}{2})\frac{e}{C_1 + C_G} + \frac{C_G}{C_1 + C_G}V_G\]
 
 \[V_D < (N + \frac{1}{2})\frac{e}{C_2} - \frac{C_G}{C_2}V_G\]

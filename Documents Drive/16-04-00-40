@@ -283,7 +283,9 @@ La première consiste à créer des nanofils d'or sur une plaque de Al203 où no
     Vient ensuite l'étape de l'électromigration. Elle consiste à appliquer un courant tel que les électrons emportent les atomes d'or qui constituent les nanofils gràce à leur énergie cinétique. En créant ces nanogaps, un molécule de fullerène peut se loger à l'intérieur et ainsi créer notre boite quantique.
     Le dépôt de fullerène et la création de nanogaps peuvent se suivre en direct grâce au testeur sous pointes et le logiciel ADWin. Par exemple, il permet de suivre en direct l'augmentation de la résistance du nanogap durant l'électromigration, de savoir s'il reste des canaux par où passent les électrons et donc de savoir si le nanogap à été formé (on trouvera une résistance Rmax=25kOhm). La caractéristique I(Vg) permettra quant à elle de savoir si oui ou non une moléculde de fullerène est dans le nanogap. Ces instruments permettent donc à la fois la création des SET et la mesure de leurs caractéristiques.
 Cette technologie a vu le jour dans les années 90. Mais la difficulté d'utilisation de ce type de transistor, notamment parce qu'il faut se placer à de très basse température (4,2K). Les chercheurs actuels ont remplacé la molécule de fullerène par de nouvelle molécule, le TbPc2 par exemple. Cette molécule est utilisée car elle permet la lecture et la manipulation d'un spin nucléaire. Mais la recherche ne s'arrete pas là: effectivment, l'équipe de Franck Balestro travaille actuellement avec plusieurs équipes de chimiste à travers le monde dans le but de trouver de nouvelle molécule intéressante pour avancer dans le domaine de la spintronique.
-Avis sur le projet de recherche: Cet exercice de projet a été très enrichissant
+Cet exercice de projet de recherche a été très enrichissant pour toute personne s'intéressant au monde de la recherche. Il nous a permis dans un premier temps de nous intéresser à un sujet très actuel sur lequel des chercheurs de Grenoble et du monde entier s’interessent en ce moment. De plus, ce sujet était en relation direct avec le cours de Nanophysique dispensé en 2e année à Phelma en PNS. Pouvoir mettre en pratique des phénomènes jusque là seulement étudié en théories est évidement très grisant.
+L’exercice du 1er semestre nous a permis de voir comment débuter et menée une bibliographie sur un sujet que nous maîtrisions pas dans sa globalité. Il nous a fallu une certaine dose d’indépendance et de travail personnel pour comprendre les tenants et les aboutissants de ce sujet
+L'expérience menée au 2e semestre à durée une journée et il nous est apparu clair qu’il faut s’armer de patience si l’on veut trouver des résultats fiables et exploitables. Elle nous a aussi permis de suivre le quotidien d’un chercheur, bien que l’expérience menée n’était quant à elle pas tout à fait d’actualité.
 Bibliographie
 
 
@@ -323,5 +325,3 @@ http://thesesups.ups-tlse.fr/1028/1/Hallil_Hamida.pdf
 http://www.lakeshore.com/products/Cryogenic-Probe-Stations/Pages/Cryogenic-Probe-Stations.aspx
 [18] Introduction `a l’information quantique (Bellac Le.) 2006
 https://cel.archives-ouvertes.fr/cel-00092955/document
-
-
